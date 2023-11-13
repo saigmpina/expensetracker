@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    background-image:url('abstract-blue-pink-blurred-textured-background.jpg');
+    font-family:'Arial' sans-serif ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh ; 
+}
+.glass-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th,td{
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th{
+    background-color: #4CAF50;
+    color: white;
+}
+h1{
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+form{
+    margin-top: 20px;
+}
+input,button{
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc ;
+    border-radius : 4px ;
+}
+button{
+    background-color : #4CAF50;
+    color:white;
+    cursor: pointer;
+}
+.radio-buttons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.radio-buttons label {
+    margin-right: 20px;
+    font-size: 16px;
+}
+.radio-buttons input {
+    margin-right: 5px;
+}
